@@ -237,7 +237,7 @@ function cekKotak(arrSudoku) {
     return kotak
 }
 
-var currentLeftNaga = -400
+let currentLeftNaga = -400
 setInterval(() => {
   document.querySelector('.box').style.left = currentLeftNaga + "px"
   currentLeftNaga += 10
@@ -246,7 +246,7 @@ setInterval(() => {
   }
 }, 100);
 
-var currentLeftAyam = -50
+let currentLeftAyam = -50
 setInterval(() => {
   document.querySelector('.box2').style.left = currentLeftAyam + "px"
   currentLeftAyam += 10
@@ -254,3 +254,7 @@ setInterval(() => {
       currentLeftAyam = -150
   }
 }, 100);
+
+function resetSudoku() {
+    location.reload()
+}
