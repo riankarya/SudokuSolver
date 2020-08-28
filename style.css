@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+button, h1 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.sudoku-menu {
+	width: 50%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sudoku-menu button {
+	font-size: 24px;
+	margin: 10px;
+	padding: 5px;
+}
+
+#container {
+    border: 5px solid #666;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 2px;
+    width: fit-content;
+	float: center;
+	min-width: 428px;
+	min height: 432px;
+}
+
+.kotakinput {
+    width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 20px;
+    padding: 1px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+	border: 1px #ccc solid;
+	background: transparent;
+}
+
+.grey {
+    background-color: rgb(197, 197, 197);
+    border: 1px solid white;
+}
+
+.white {
+    background-color: white;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.merah {
+	background-color: rgb(255, 141, 121);
+}
+
+.box2 {
+	width: 30px;
+	height: 30px;
+	margin-top: 200px;
+}
