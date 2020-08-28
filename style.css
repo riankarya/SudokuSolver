@@ -30,7 +30,7 @@ button, h1 {
     width: fit-content;
 	float: center;
 	min-width: 428px;
-	min height: 432px;
+	min-height: 432px;
 }
 
 .kotakinput {
